@@ -1,0 +1,14 @@
+             JS   Vs  JSON
+undefined            没有
+null                      null
+['a','b']                 ["a","b"] 
+{name:'frank'}      {"name":"frank"}
+function xxx(){ }    没有
+'frank'                 "frank"
+var a = { }
+a.self = a              搞不定（没有变量）
+{__proto__}            没有原型链
+
+
+1.JSON没有抄袭function 和 undefined
+2.JSON的字符串首尾必须是 "
